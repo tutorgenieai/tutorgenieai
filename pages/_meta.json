@@ -1,0 +1,13 @@
+{
+  "documentation": {
+    "title": "Documentation",
+    "type": "page",
+    "display": "hidden"
+  },
+
+  "home": {
+    "title": "Home",
+    "type": "page",
+    "href": "https://studystudio.vercel.app/"
+  }
+}

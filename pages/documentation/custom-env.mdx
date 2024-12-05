@@ -1,0 +1,65 @@
+import {
+  BoxIcon,
+  BrushIcon,
+  DropperIcon,
+  FilesIcon,
+  GlobeIcon,
+  LightningIcon,
+  LinkIcon,
+  MarkdownIcon,
+  PictureIcon,
+  StarsIcon,
+  TerminalIcon,
+} from "../../components/icons/index";
+import { Card, Cards } from "nextra/components";
+import { Callout } from "nextra/components";
+
+# Custom Server Environment Guide
+
+<Callout type="error">This section is still under development.</Callout>
+<Callout type="default">Please follow the guide in the provided order.</Callout>
+
+This section will guide you through the final setup and deploying the application on any of your traditional servers i.e. Shared Hosting, VPS Hosting, Or Dedicated Hosting.
+
+<Cards>
+  <Card
+    icon={<FilesIcon />}
+    title="Getting Started"
+    href="/documentation/custom-env/getting-started"
+  />
+  <Card
+    icon={<MarkdownIcon />}
+    title="Environment Variables"
+    href="/documentation/custom-env/env-var"
+  />
+  <Card
+    icon={<StarsIcon />}
+    title="Gemini"
+    href="/documentation/custom-env/gemini"
+  />
+  <Card
+    icon={<LinkIcon />}
+    title="Authentication"
+    href="/documentation/custom-env/auth"
+  />
+  <Card
+    icon={<TerminalIcon />}
+    title="Payment Gateways"
+    href="/documentation/custom-env/payment-gateway"
+  />
+  <Card
+    icon={<GlobeIcon />}
+    title="Database"
+    href="/documentation/custom-env/database"
+  />
+  <Card
+    icon={<BoxIcon />}
+    title="Deployment"
+    href="/documentation/custom-env/deploy"
+  />
+  <Card
+    icon={<LightningIcon />}
+    title="Customization"
+    href="/documentation/custom-env/customize"
+  />
+</Cards>

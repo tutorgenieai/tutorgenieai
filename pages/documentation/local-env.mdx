@@ -1,0 +1,78 @@
+import {
+  BoxIcon,
+  BrushIcon,
+  DropperIcon,
+  FilesIcon,
+  GlobeIcon,
+  LightningIcon,
+  LinkIcon,
+  MarkdownIcon,
+  PictureIcon,
+  StarsIcon,
+  TerminalIcon,
+} from "../../components/icons/index";
+import { Card, Cards } from "nextra/components";
+import { Callout } from "nextra/components";
+
+# Local Environment Guide
+
+<Callout type="warning">
+  This environment is for users who don't want to host StudyStudio.
+</Callout>
+
+<Callout type="default">Please follow the guide in the provided order.</Callout>
+
+This section will guide you through the initial setup and installation process on your local machine.
+
+<Cards>
+  <Card
+    icon={<FilesIcon />}
+    title="Getting Started"
+    href="/documentation/local-env/getting-started"
+  />
+  <Card
+    icon={<MarkdownIcon />}
+    title="Environment Variables"
+    href="/documentation/local-env/env-var"
+  />
+  <Card
+    icon={<StarsIcon />}
+    title="Gemini"
+    href="/documentation/local-env/gemini"
+  />
+  <Card
+    icon={<LinkIcon />}
+    title="Authentication"
+    href="/documentation/local-env/auth"
+  />
+  <Card
+    icon={<TerminalIcon />}
+    title="Payment Gateways"
+    href="/documentation/local-env/payment-gateway"
+  />
+  <Card
+    icon={<LightningIcon />}
+    title="Database ORM"
+    href="/documentation/local-env/orm"
+  />
+  <Card
+    icon={<GlobeIcon />}
+    title="Database"
+    href="/documentation/local-env/database"
+  />
+  <Card
+    icon={<DropperIcon />}
+    title="Storage"
+    href="/documentation/local-env/storage"
+  />
+  <Card
+    icon={<BrushIcon />}
+    title="Starting Server"
+    href="/documentation/local-env/starting-server"
+  />
+  <Card
+    icon={<BoxIcon />}
+    title="Stopping Server"
+    href="/documentation/local-env/stopping-server"
+  />
+</Cards>

@@ -1,0 +1,74 @@
+import {
+  BoxIcon,
+  BrushIcon,
+  DropperIcon,
+  FilesIcon,
+  GlobeIcon,
+  LightningIcon,
+  LinkIcon,
+  MarkdownIcon,
+  PictureIcon,
+  StarsIcon,
+  TerminalIcon,
+} from "../../components/icons/index";
+import { Card, Cards } from "nextra/components";
+import { Callout } from "nextra/components";
+
+# Production Environment Guide
+
+<Callout type="default">Please follow the guide in the provided order.</Callout>
+
+This section will guide you through the final setup and deploying the application on [Vercel](https://vercel.com/).
+
+<Cards>
+  <Card
+    icon={<FilesIcon />}
+    title="Getting Started"
+    href="/documentation/prod-env/getting-started"
+  />
+  <Card
+    icon={<MarkdownIcon />}
+    title="Environment Variables"
+    href="/documentation/prod-env/env-var"
+  />
+  <Card
+    icon={<StarsIcon />}
+    title="Gemini"
+    href="/documentation/prod-env/gemini"
+  />
+  <Card
+    icon={<LinkIcon />}
+    title="Authentication"
+    href="/documentation/prod-env/auth"
+  />
+  <Card
+    icon={<TerminalIcon />}
+    title="Payment Gateways"
+    href="/documentation/prod-env/payment-gateway"
+  />
+  <Card
+    icon={<LightningIcon />}
+    title="Database ORM"
+    href="/documentation/prod-env/orm"
+  />
+  <Card
+    icon={<GlobeIcon />}
+    title="Database"
+    href="/documentation/prod-env/database"
+  />
+  <Card
+    icon={<DropperIcon />}
+    title="Storage"
+    href="/documentation/prod-env/storage"
+  />
+  <Card
+    icon={<BoxIcon />}
+    title="Deployment"
+    href="/documentation/prod-env/deploy"
+  />
+  <Card
+    icon={<BrushIcon />}
+    title="Customization"
+    href="/documentation/prod-env/customize"
+  />
+</Cards>

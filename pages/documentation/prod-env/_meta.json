@@ -1,0 +1,13 @@
+{
+  "getting-started": "Getting Started",
+  "env-var": "Environment Variables",
+  "gemini": "Gemini",
+  "auth": "Authentication",
+  "payment-gateway": "Payment Gateways",
+  "orm": "Database ORM",
+  "storage": "Storage",
+  "database": "Database",
+  "analytics": "Google Analytics",
+  "deploy": "Deployment",
+  "customize": "Customization"
+}
