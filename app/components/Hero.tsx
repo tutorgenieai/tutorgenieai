@@ -64,9 +64,9 @@ function Hero() {
             transition={{ duration: 2, ease: "easeInOut" }}
           >
             <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
-              Study
+              TutorGenie{" "}
               <span className="bg-clip-text bg-gradient-to-tl from-green-600 to-zinc-600 text-transparent">
-                Studio
+                AI
               </span>
             </h1>
           </motion.div>
@@ -80,8 +80,7 @@ function Hero() {
             className="mt-5 max-w-3xl text-center mx-auto"
           >
             <p className="text-lg text-gray-600 dark:text-neutral-400 mx-10">
-              Say goodbye to tutor fees and endless study hours. StudyStudio is
-              your 24/7 AI-powered study partner.
+              Empowering Minds, Revolutionizing Learning with AI!
             </p>
           </motion.div>
 

@@ -41,7 +41,7 @@ function Testimonials() {
 
             <div className="mt-2 sm:mt-6">
               <p className="text-gray-800 dark:text-neutral-200">
-                " StudyStudio has improved the learning experience of our
+                " TutorGenie AI has improved the learning experience of our
                 students. "
               </p>
             </div>
@@ -137,7 +137,7 @@ function Testimonials() {
             <div className="mt-2 sm:mt-6">
               <p className="text-gray-800 dark:text-neutral-200">
                 " The grades of our students have improved significantly with
-                StudyStudio's help. "
+                TutorGenie AI's help. "
               </p>
             </div>
 
@@ -235,7 +235,7 @@ function Testimonials() {
 
             <div className="mt-2 sm:mt-6">
               <p className="text-gray-800 dark:text-neutral-200">
-                " We can't imagine studying without StudyStudio now. Nice
+                " We can't imagine studying without TutorGenie AI now. Nice
                 experience. "
               </p>
             </div>
@@ -553,7 +553,7 @@ function Testimonials() {
 
             <div className="mt-2 sm:mt-6">
               <p className="text-gray-800 dark:text-neutral-200">
-                " StudyStudio is the study companion our students needed. Now
+                " TutorGenie AI is the study companion our students needed. Now
                 they are having fun. "
               </p>
             </div>

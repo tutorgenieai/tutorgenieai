@@ -13,16 +13,16 @@ function Footer() {
             href="#"
             aria-label="Brand"
           >
-            Study
+            TutorGenie{" "}
             <span className="bg-clip-text bg-gradient-to-tl from-green-600 to-zinc-600 text-transparent">
-              Studio
+              AI
             </span>
           </a>
         </div>
 
         <div className="mt-3">
           <p className="text-gray-500 dark:text-neutral-500">
-            © {new Date().getFullYear()} StudyStudio Inc. All rights reserved.
+            © {new Date().getFullYear()} TutorGenie AI Inc. All rights reserved.
           </p>
         </div>
 

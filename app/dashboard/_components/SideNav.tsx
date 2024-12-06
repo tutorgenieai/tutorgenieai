@@ -102,8 +102,8 @@ function SideNav({ isOpen, toggleSidebar }: SideNavProps) {
   const renderSidebarContent = (isMobile?: boolean) => (
     <div className="flex flex-col h-full">
       {/* Logo section */}
-      <div className="flex justify-between items-center mb-2">
-        <Image src="/logo.svg" alt="logo" width={150} height={150} />
+      <div className="flex justify-center items-center">
+        <Image src="/logo.png" alt="logo" width={100} height={100} />
         {isMobile && (
           <button
             onClick={toggleSidebar}
@@ -149,7 +149,7 @@ function SideNav({ isOpen, toggleSidebar }: SideNavProps) {
         <UsageTrack />
         <hr className="my-3 border" />
         <p className="text-xs text-center text-gray-500">
-          © {new Date().getFullYear()} StudyStudio Inc.
+          © {new Date().getFullYear()} TutorGenie AI Inc.
         </p>
       </div>
     </div>

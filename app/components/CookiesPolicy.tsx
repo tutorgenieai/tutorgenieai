@@ -5,7 +5,7 @@ const CookiesPolicy = () => {
   const sections = [
     {
       title: "Cookies Policy",
-      content: `At StudyStudio, we use cookies and similar technologies to provide you with the best possible experience. This policy explains how we use these technologies and the choices you have.`,
+      content: `At TutorGenie AI, we use cookies and similar technologies to provide you with the best possible experience. This policy explains how we use these technologies and the choices you have.`,
     },
     {
       title: "What are Cookies?",
@@ -14,7 +14,7 @@ const CookiesPolicy = () => {
     {
       title: "How We Use Cookies",
       content: `We use cookies to:
-• Maintain your session and preferences while using StudyStudio
+• Maintain your session and preferences while using TutorGenie AI
 • Remember your AI tutor configurations and learning progress
 • Analyze how you interact with our platform to improve our services
 • Ensure the security and proper functioning of our platform
@@ -23,7 +23,7 @@ const CookiesPolicy = () => {
     {
       title: "Types of Cookies We Use",
       content: `Essential Cookies: Required for basic platform functionality and security.
-Performance Cookies: Help us understand how users interact with StudyStudio.
+Performance Cookies: Help us understand how users interact with TutorGenie AI.
 Functionality Cookies: Remember your preferences and personalization settings.
 AI Interaction Cookies: Store your AI tutor configurations and learning progress.`,
     },
@@ -34,7 +34,7 @@ AI Interaction Cookies: Store your AI tutor configurations and learning progress
 • Delete existing cookies from your device
 • Set your browser to alert you when cookies are being set
 
-Please note that limiting cookies may affect some features of StudyStudio, particularly those related to AI tutor personalization.`,
+Please note that limiting cookies may affect some features of TutorGenie AI, particularly those related to AI tutor personalization.`,
     },
     {
       title: "Updates to This Policy",

@@ -137,7 +137,7 @@ function Faq() {
                 aria-expanded="false"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
               >
-                How does StudyStudio's pricing work?
+                How does TutorGenie AI's pricing work?
                 <svg
                   className="hs-accordion-active:hidden block shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -189,7 +189,7 @@ function Faq() {
                 aria-expanded="false"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
               >
-                How secure is StudyStudio?
+                How secure is TutorGenie AI?
                 <svg
                   className="hs-accordion-active:hidden block shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-neutral-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -226,7 +226,7 @@ function Faq() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
               >
                 <p className="text-gray-600 dark:text-neutral-400">
-                  Protecting the data you trust to StudyStudio is our first
+                  Protecting the data you trust to TutorGenie AI is our first
                   priority. This part is really crucial in keeping the project
                   in line to completion.
                 </p>

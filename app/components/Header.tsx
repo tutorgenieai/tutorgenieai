@@ -22,7 +22,7 @@ function Header() {
       >
         <div className="flex items-center justify-between">
           <div>
-            <Image src={"/logo.svg"} alt="logo" width={100} height={100} />
+            <Image src={"/logo.png"} alt="logo" width={100} height={100} />
           </div>
           <button
             onClick={toggleMenu}
@@ -35,13 +35,13 @@ function Header() {
         {/* Desktop Navigation */}
         <div className="hidden sm:block">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-end sm:ps-7">
-            <Link
+            {/* <Link
               href="/documentation/intro"
               className="flex items-center gap-x-2 font-medium text-gray-500 transition-colors duration-300 hover:text-green-600 py-2 sm:py-0 sm:ms-4 sm:my-6 sm:ps-6 dark:text-neutral-400 dark:hover:text-primary"
             >
               <BookText size={16} />
               <div>Documentation</div>
-            </Link>
+            </Link> */}
             <Link
               href="/dashboard"
               className="flex items-center gap-x-2 font-medium text-gray-500 transition-colors duration-300 hover:text-green-600 sm:border-s sm:border-gray-300 py-2 sm:py-0 sm:ms-4 sm:my-6 sm:ps-6 dark:border-neutral-700 dark:text-neutral-400 dark:hover:text-primary"
@@ -92,14 +92,14 @@ function Header() {
                     </button>
                   </div>
                   <div className="flex flex-col space-y-6">
-                    <Link
+                    {/* <Link
                       href="/documentation/intro"
                       className="flex items-center gap-x-2 font-medium text-gray-700 hover:text-green-600 dark:text-neutral-300"
                       onClick={toggleMenu}
                     >
                       <BookText size={16} />
                       <div>Documentation</div>
-                    </Link>
+                    </Link> */}
                     <Link
                       href="/dashboard"
                       className="flex items-center gap-x-2 font-medium text-gray-700 hover:text-green-600 dark:text-neutral-300"
